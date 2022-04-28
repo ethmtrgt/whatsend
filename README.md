@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/amo/users/whatsend">
   <img src="https://img.shields.io/amo/v/whatsend">
 
-  <h1><img src="/src/icon.png"> WhatSend</h1>
+  <h1><img src="/src/img/icon.png"> WhatSend</h1>
   
   <img width="50%" src="https://user-images.githubusercontent.com/48857416/165642616-8dd56457-b6ce-4fb4-966b-7e85e77c3ab6.png">
   
