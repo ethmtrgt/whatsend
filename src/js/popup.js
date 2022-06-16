@@ -13,7 +13,7 @@ const launchChat = (number) => {
 
 const formatNumber = (number) => {
     return number.replace(/[\+\(\)\s]/g, '');
-}
+};
 
 const redirectWhatsapp = () => {
     let number = document.querySelector('#phone');
@@ -21,3 +21,12 @@ const redirectWhatsapp = () => {
     launchChat(number);
  };
 
+const setPreferredTheme = () => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {        
+        document.body.classList.add('dark');
+    } else {
+        document.body.classList.remove('dark');
+    };
+};
+
+setPreferredTheme();
