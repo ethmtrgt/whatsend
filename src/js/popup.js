@@ -22,11 +22,16 @@ const redirectWhatsapp = () => {
  };
 
 const setPreferredTheme = () => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {        
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     } else {
         document.body.classList.remove('dark');
     };
 };
+
+const openInfoPage = () => {
+    let url = '/src/help.html';
+    chrome.tabs.create({active: true, url});
+}
 
 setPreferredTheme();
