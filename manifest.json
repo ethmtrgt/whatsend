@@ -14,5 +14,8 @@
         "gecko": {
             "id": "whatsend@ethem.me"
         }
-    }
+    },
+    "web_accessible_resources": [
+        "src/help.html"
+    ]
 }
