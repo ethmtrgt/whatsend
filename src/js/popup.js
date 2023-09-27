@@ -1,4 +1,4 @@
-const launchChat = (number) => {
+;;;;;const launchChat = (number) => {
     let url = "https://web.whatsapp.com/send/?phone=" + number;
     chrome.tabs.query({url: "*://*.whatsapp.com/*"}, (tabs) => {
         let tab = null;
@@ -32,6 +32,6 @@ const setPreferredTheme = () => {
 const openInfoPage = () => {
     let url = '/src/help.html';
     chrome.tabs.create({active: true, url});
-}
+};
 
 setPreferredTheme();

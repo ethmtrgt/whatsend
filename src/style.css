@@ -17,7 +17,7 @@ body {
     color: #105b2c;
 }
 
-h2 {
+h2, h3 {
     margin: 0;
     padding: 0;
     cursor: pointer;
@@ -73,6 +73,43 @@ h2 {
     padding: 0;
     line-height: 1em;
     cursor: pointer;
+}
+
+#settings-toggle {
+    font-size: 0.9em;
+    color: #68b685;
+    opacity: 0.5;
+    margin: 0 0 0.5em 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#settings {
+    display: none;
+    font-size: 0.8em;
+}
+
+#settings.visible {
+    display: block;
+}
+
+#settings label {
+    vertical-align: middle;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 60%;
+}
+
+#settings input {
+    border: none;
+    background-color: #434C46;
+    width: 40%;
+    height: 1.5em;
+    border-radius: 0.25em;
+}
+
+#settings input:focus {
+    outline: none;
 }
 
 /* 
